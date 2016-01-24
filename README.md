@@ -29,7 +29,7 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
         - Periféricos  
     - Pesquisa 
         - Criar conta + repositorio GitHub
-        - Tópicos uC
+        - Pesquisa
  
  * Semana 02 - Revisão programaçao em C
     - Conteúdo
@@ -37,8 +37,9 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
         - Funções
         - Ponteiros
         - While(1){}
+        - Printf
     - Avaliação
-        - Exercícios
+        - Pesquisa e Exercícios
 
  * Semana 03 - Introdução ambiente de desenvolvimento Atmel
     - Conteúdo
@@ -64,26 +65,8 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
  * Interrupção (GPIO)
  * PWM
  * TIMER
- * 
-
-
 
 # Todo
  - Criar tutorial Atmel Studio 7
  - Criar repositório padrão para entrega de trabalho 
 
-
-
-
- 12 - Prova
-
- 19 - Prova
- 20 - Prova   
- 21
- 22
- 
- 30
- 
- 39
- 40
- 41
