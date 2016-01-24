@@ -20,15 +20,16 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
 
 # Ementa
 
- * Semana 01 - Introdução uC ARM
+ * Semana 01 - Visão Geral & Revisão uC & ARM
     - Conteúdo
+        - Visão geral do curso 
         - Revisão uC
         - Arquitetura ARM  
         - Barramentos vs banco de registradores
-        - Periféricos 
-    - Avaliação
-        - Pesquisa sobre arquitetura ARM do processador utilizado SAM4S (AMBA, CortexM, Aplicações)
+        - Periféricos  
+    - Pesquisa 
         - Criar conta + repositorio GitHub
+        - Tópicos uC
  
  * Semana 02 - Revisão programaçao em C
     - Conteúdo
@@ -41,11 +42,14 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
 
  * Semana 03 - Introdução ambiente de desenvolvimento Atmel
     - Conteúdo
+        - workflow
         - Criar um novo projeto
         - Build
         - Debug
         - ASF
         - IDE
+    - Pesquisa
+        - Pesquisa sobre arquitetura ARM do processador utilizado SAM4S (AMBA, CortexM, Aplicações)
 
  * Semana 04 - GPIO (escrita e leitura)
     - Conteúdo

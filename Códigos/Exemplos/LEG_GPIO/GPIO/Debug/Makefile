@@ -308,4 +308,3 @@ clean:
 	-$(RM) $(C_DEPS_AS_ARGS)   
 	rm -rf "GPIO.elf" "GPIO.a" "GPIO.hex" "GPIO.bin" "GPIO.lss" "GPIO.eep" "GPIO.map" "GPIO.srec"
 	
-
