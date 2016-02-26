@@ -7,11 +7,21 @@ EEN251 - Microcontroladores e Sistemas Embarcado
 Material liberado sob licença:
  * GNU General Public License v2.0
 
-# Objetivo
+# Repositório 
+O Repositório está estruturado da seguinte maneira :
+
+- Códigos : Códigos que darei de exemplo
+- Leituras complementares : Materiais extra que acho interessante e compartilho com vocês
+- Pesquisa e Problemas : As atividades que devem ser realizadas durante as aulas e devem ser entregues
+- Slides : Os slides utilizados em sala de aula, eles estão separados por conteúdo e não por aula, cada conteúdo é numerado como : 01, 02, 03. e.x: A primeira aula foi composta pelos conteúdos 1,2,3,4.
+
+# Resumo do curso
+
+## Objetivo
 
 Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas encontradas nos projetos de eletrônica embarcada de forma sistêmica, objetiva e efetiva, correlacionando ferramentas, estratégias e métodos existentes.
 
-# Habilidades 
+## Habilidades 
  * Entendimento da arquitetura de um microprocessador
  * Programação de microprocessadores 
 	* Interpretação de documentação (\textit{datasheet}, manual do usuário, esquemático)
