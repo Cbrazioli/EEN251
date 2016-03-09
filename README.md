@@ -28,55 +28,8 @@ Ser capaz de desenvolver, solucionar e otimizar necessidades e problemáticas en
 	* Compreender soluções empregadas em projetos existentes identificando suas vantagens e desvantagens
 	* Estruturação e gestão de projeto (código fonte, documentação)
 
-# Ementa
+## Tabela
 
- * Semana 01 - Visão Geral & Revisão uC & ARM
-    - Conteúdo
-        - Visão geral do curso 
-        - Revisão uC
-        - Arquitetura ARM  
-        - Barramentos vs banco de registradores
-        - Periféricos  
-    - Pesquisa 
-        - Criar conta + repositorio GitHub
-        - Pesquisa
- 
- * Semana 02 - Revisão programaçao em C
-    - Conteúdo
-        - C -> OpCode
-        - Funções
-        - Ponteiros
-        - While(1){}
-        - Printf
-    - Avaliação
-        - Pesquisa e Exercícios
+Atualizar a com suas informações do repositório criado, as notas serão lançadas nessa tabela:
 
- * Semana 03 - Introdução ambiente de desenvolvimento Atmel
-    - Conteúdo
-        - workflow
-        - Criar um novo projeto
-        - Build
-        - Debug
-        - ASF
-        - IDE
-    - Pesquisa
-        - Pesquisa sobre arquitetura ARM do processador utilizado SAM4S (AMBA, CortexM, Aplicações)
-
- * Semana 04 - GPIO (escrita e leitura)
-    - Conteúdo
-        - Revisão datasheet
-        - Periférico
-        - Funções ioport
-    - Avaliação
-        - Exercícios proposto em aula (modificação)
-        - Documentação no código
-
- * Estrutura de SW (GPIO)
- * Interrupção (GPIO)
- * PWM
- * TIMER
-
-# Todo
- - Criar tutorial Atmel Studio 7
- - Criar repositório padrão para entrega de trabalho 
-
+https://docs.google.com/spreadsheets/d/1cuKvWHw3hXCjy4WiemzEMh-MFBkMHng-f6sZUBVCWtI/edit#gid=0
