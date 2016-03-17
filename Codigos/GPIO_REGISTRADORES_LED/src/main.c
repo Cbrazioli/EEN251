@@ -33,14 +33,6 @@
  */
 #define PIN_LED_BLUE 19
 
-/** 
- * Definição dos ports
- * Ports referentes a cada pino
- */
-#define PORT_LED_BLUE PIOA
-
-
-
 /**
  * Main function
  * 1. configura o clock do sistema
@@ -79,11 +71,15 @@ int main (void)
 	PIOA->PIO_WPMR = 0;
 	
 	// 31.6.4 PIO Output Enable Register
-	// 1: Enables the output on the I/O line.
+	// value =
+	//	 	1 : Enables the output on the I/O line.
+	//	 	0 : do nothing
 	PIOA->PIO_OER |=  (1 << PIN_LED_BLUE );
 
 	// 31.6.10 PIO Set Output Data Register
-	// 1: Sets the data to be driven on the I/O line.
+	// value = 
+	// 		1 : Sets the data to be driven on the I/O line.
+	// 		0 : do nothing
 	PIOA->PIO_SODR = (1 << PIN_LED_BLUE );
 
 	/**
