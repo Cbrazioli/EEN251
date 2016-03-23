@@ -1,8 +1,8 @@
 /**
- * @file pmc_maua.h
+ * @file pio_maua.h
  * @author Rafael Corsi
  * @date 22/3/2016
- * @brief Funções para configurar o PMC do SAM4S
+ * @brief Funções para configurar o PIO do SAM4S
  */
 
 #ifndef PIO_MAUA_H
@@ -43,21 +43,6 @@
  * PROTOTYPES 
  *****************/
 
-
-/**
- * \brief Configure one or more pin(s) or a PIO controller as inputs.
- * Optionally, the corresponding internal pull-up(s) and glitch filter(s) can
- * be enabled.
- *
- * \param p_pio Pointer to a PIO instance.
- * \param ul_mask Bitmask indicating which pin(s) to configure as input(s).
- * \param ul_attribute PIO attribute(s).
- */
-void _pio_set_input( Pio *p_pio, 
-                    const uint32_t ul_mask,
-            		const uint32_t ul_attribute);
-
-
 /**
  * \brief Configure one or more pin(s) of a PIO controller as outputs, with
  * the given default value. 
@@ -68,10 +53,26 @@ void _pio_set_input( Pio *p_pio,
  * \param ul_pull_up_enable Indicates if the pin shall have its pull-up
  * activated.
  */
-void _pio_set_output(Pio *p_pio, 
-                    const uint32_t ul_mask,
-		            const uint32_t ul_default_level,
-		            const uint32_t ul_pull_up_enable);
+void _pio_set_output(	Pio *p_pio, 
+                    	const uint32_t ul_mask,
+		       	const uint32_t ul_default_level,
+		       	const uint32_t ul_pull_up_enable);
+
+
+
+
+/**
+ * \brief Configure one or more pin(s) or a PIO controller as inputs.
+ * Optionally, the corresponding internal pull-up(s) and glitch filter(s) can
+ * be enabled.
+ *
+ * \param p_pio Pointer to a PIO instance.
+ * \param ul_mask Bitmask indicating which pin(s) to configure as input(s).
+ * \param ul_attribute PIO attribute(s).
+ */
+void _pio_set_input( 	Pio *p_pio, 
+                    	const uint32_t ul_mask,
+            	   	const uint32_t ul_attribute);
 
 /**
  * \brief Configure PIO internal pull-up.
@@ -81,8 +82,8 @@ void _pio_set_output(Pio *p_pio,
  * \param ul_pull_up_enable Indicates if the pin(s) internal pull-up shall be
  * configured.
  */
-void _pio_pull_up(   Pio *p_pio, 
-                    const uint32_t ul_mask,
+void _pio_pull_up(	Pio *p_pio, 
+               const uint32_t ul_mask,
 		            const uint32_t ul_pull_up_enable);
 
 /**
