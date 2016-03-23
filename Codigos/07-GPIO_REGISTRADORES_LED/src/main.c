@@ -60,8 +60,9 @@ int main (void)
 	// 29.17.4 PMC Peripheral Clock Enable Register 0
 	// 1: Enables the corresponding peripheral clock.
 	// ID_PIOA = 11 - TAB 11-1
-	PMC->PMC_PCER0 = ID_PIOA;
-
+	//PMC->PMC_PCER0 = ID_PIOA;
+	_pmc_enable_clock_periferico(ID_PIOA);
+	_pmc_enable_clock_periferico(ID_PIOC);
 	 //31.6.1 PIO Enable Register
 	// 1: Enables the PIO to control the corresponding pin (disables peripheral control of the pin).	
 	PIOA->PIO_PER = (1 << PIN_LED_BLUE );
